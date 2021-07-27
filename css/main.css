@@ -56,3 +56,21 @@ body {
   justify-content: center;
   align-items: center;
 }
+@media all and (min-width: 768px) {
+  .header {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+  }
+  .adalab-logo {
+    margin: 20px auto 20px 30px;
+  }
+  .link-list {
+    padding-right: 30px;
+  }
+
+  .main-title {
+    font-size: 40px;
+  }
+}
